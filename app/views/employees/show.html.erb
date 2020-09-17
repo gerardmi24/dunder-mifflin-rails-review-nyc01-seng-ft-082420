@@ -1,4 +1,4 @@
-<h1> Employee#show </h1>
+<h1> Employees#show </h1>
 <h1><%=@employee.first_name + " " + @employee.last_name%></h1>
 <br>
 <h1><%=@employee.alias %></h1>
@@ -7,6 +7,6 @@
 <br>
 <h1><%=@employee.office %></h1>
 <br>
-<h1><%=@employee.dog_id %></h1>
+<h1><%=@employee.dog.name %></h1>
 <br>
 <img src="<%=@employee.img_url%>" alt= "Employee Picture">

@@ -2,7 +2,5 @@
 
 
 <p><% @employees.each do |emp| %></p>
-<p><%= link_to emp.first_name + " " + emp.last_name, employee_path(@employees) %></p>
+<p><%= link_to emp.first_name + " " + emp.last_name, employee_path(emp) %></p>
 <% end %>
-
-
